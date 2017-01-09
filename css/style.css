@@ -1,0 +1,33 @@
+body {
+  background: #ddd url("../images/bground.jpg");
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.main-div {
+  background: #ddd url("../images/grey_bg.jpg");
+  background-color: #999;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.nav-main ol {
+}
+header {
+  background: #ddd url("../images/grey_bg.jpg");
+  text-align: center;
+  background-color: #bbb;
+  padding: 10px;
+  margin-top: 15px;
+}
+header img {
+  vertical-align: middle;
+}
+footer {
+  background: #ddd url("../images/grey_bg.jpg");
+  text-align: center;
+  background-color: #bbb;
+  padding: 10px;
+}
+footer img {
+  vertical-align: middle;
+}
