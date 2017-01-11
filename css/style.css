@@ -7,19 +7,21 @@ body {
   background: #ddd url("../images/grey_bg.jpg");
   background-color: #999;
   padding: 30px;
-  margin-top: 25px;
+  margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: 150px;
+  overflow: hidden;
 }
 .nav-main {
+  width: 15%;
+  float: left;
   background: #ddd url("../images/grey_bg.jpg");
   background-color: #999;
   margin-top: 50px;
-  padding: 5px;
 }
 .nav-main ol li {
   width: 75px;
-  display: inline-block;
-  /*background-color: #aaa;*/
+  list-style-type: none;
 }
 .nav-main a {
   color: #555;
