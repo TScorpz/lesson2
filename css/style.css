@@ -19,10 +19,14 @@ body {
 .nav-main ol li {
   width: 75px;
   display: inline-block;
-  background-color: #aaa;
+  /*background-color: #aaa;*/
 }
 .nav-main a {
+  color: #555;
   text-decoration: none;
+}
+.nav-main a:hover {
+  color: #888;
 }
 header {
   background: #ddd url("../images/grey_bg.jpg");
