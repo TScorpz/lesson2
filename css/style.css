@@ -7,10 +7,22 @@ body {
   background: #ddd url("../images/grey_bg.jpg");
   background-color: #999;
   padding: 30px;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 50px;
 }
-.nav-main ol {
+.nav-main {
+  background: #ddd url("../images/grey_bg.jpg");
+  background-color: #999;
+  margin-top: 50px;
+  padding: 5px;
+}
+.nav-main ol li {
+  width: 75px;
+  display: inline-block;
+  background-color: #aaa;
+}
+.nav-main a {
+  text-decoration: none;
 }
 header {
   background: #ddd url("../images/grey_bg.jpg");
