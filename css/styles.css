@@ -9,6 +9,7 @@ body {
   padding: 30px;
   margin: 50px 0 50px 180px;
   overflow: hidden;
+  border-radius: 6px;
 }
 .main-content img {
   min-width: 250px;
@@ -20,6 +21,7 @@ body {
   background: #ddd url("../images/grey_bg.jpg");
   background-color: #999;
   margin-top: 50px;
+  border-radius: 6px;
 }
 .nav-main ol li {
   width: 75px;
@@ -52,6 +54,7 @@ header {
   background-color: #bbb;
   padding: 10px;
   margin-top: 15px;
+  border-radius: 0 0 6px 6px;
 }
 header img {
   vertical-align: middle;
@@ -116,9 +119,49 @@ footer {
   text-align: center;
   background-color: #bbb;
   padding: 10px;
+  border-radius: 6px 6px 0 0;
 }
 footer img {
   vertical-align: middle;
+}
+/*---registration.html styles---*/
+#main-container {
+  margin: auto;
+  max-width: 1024px;
+  background-color: #9922f2;
+  text-align: center;
+  border-style: solid;
+  border-radius: 1px;
+}
+.links {
+  display: block;
+}
+#signup-form {
+    background-color: #999;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+#signup-form h1 {
+	color: #444;
+	text-shadow: 3px 3px #888;
+}
+#signup-form a {
+  color: #444;
+  text-decoration: none;
+}
+#signup-form a:hover {
+  color: #666;
+}
+.warning {
+  display: none;
+  font-size: 12px;
+  color: #bb3333;
+}
+.success {
+  display: none;
 }
 @media screen and (max-width: 1000px) {
   body {
@@ -145,7 +188,7 @@ footer img {
     display: none;
   }
   .main-content {
-    margin: auto;
+    margin: 0 0 20px 0;
     background: none;
     background-color: #ccc;
   }
@@ -160,6 +203,24 @@ footer img {
   .nav-main ol li {
     font-size: 2em;
     display: block;
+  }
+  #signup-form {
+    min-width: 450px;
+  }
+  #signup-form label {
+    font-size: 2em;
+    color: #333;
+  }
+  #signup-form h1 {
+    font-size: 3em;
+  }
+  #signup-form input {
+    width: 190px;
+    height: 50px;
+    font-size: 1.7em;
+  }
+  .warning {
+    font-size: 1.5em;
   }
 }
 @-webkit-keyframes crawl {

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <title>Registration page</title>
+</head>
+<body>
+  <form id="signup-form">
+    <h1>Sign up</h1>
+    <p>
+      <label>Username:</label></br>
+      <input id="username" type="text" name="username" />
+      <div class="warning" id="username-warning">*Username must be entered!*</div>
+    </p>
+    <p>
+      <label>Password:</label></br>
+      <input id="password" type="password" name="password" />
+      <div class="warning" id="password-warning">*Password must be entered!*</div>
+    </p>
+    <p>
+      <label>E-mail address:</label></br>
+      <input id="email" type="text" name="email" />
+      <div class="warning" id="email-warning">*E-mail address must be entered!*</div>
+    </p>
+    <p>
+      <input id="registration-submit" type="button" value="Sign up"/>
+    </p>
+    <div class="success">Registration successful!</div>
+    <a href="index.html">Go back</a>
+  </form>
+</body>
+</html>
